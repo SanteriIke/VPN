@@ -1,22 +1,30 @@
 .body {
-    background: linear-gradient(to right, #000e2b, #1f0000e3);
+    background: linear-gradient(to left, #000e2b, #1e001fe3);
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Title {
+    margin: 20px auto 50px auto;
+    width: 40%;
+    height: flex;
+    background-image: linear-gradient(to bottom, #080025 ,#0d001fe3);
+    border: #333333 solid 1px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    padding: 15px;
     color: white;
-    padding: 10px;
     text-align: center;
-    font-size: larger;
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .platform-card {
     display: inline-block;
-    background-image: linear-gradient(to bottom, rgb(8, 0, 37) ,#1f0000e3);
-    border: white solid 1px;
+    background-image: linear-gradient(to bottom,#080025 ,#0d001fe3);
+    border: #333333 solid 1px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.4s;
@@ -28,10 +36,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .download-button {
-    background-image: linear-gradient(to bottom, rgb(255, 202, 202) , rgb(85, 85, 85));
+    background-color: white;
     border: black solid 1px;
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -39,13 +45,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: larger;
+    font-weight: bold;
     margin-top: 10px;
     border-radius: 15px;
     transition-duration: 0.4s;
 }
-
-.download-button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
