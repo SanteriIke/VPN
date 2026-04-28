@@ -1,9 +1,8 @@
 #Script File
 
-from flask import Flask, render_template
+import twil as fv
+go("http://localhost:8080/") # URL of the web application
 
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
+from twill.commands import *
+fv("1", "passcode", "1234")
+submit()
