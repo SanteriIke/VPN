@@ -1,7 +1,7 @@
 #Script File
 
 import twil as fv
-go("http://localhost:8080/") # URL of the web application
+go("http://127.0.0.1:5500/verification.html") # URL of the web application
 
 from twill.commands import *
 fv("1", "passcode", "1234")
