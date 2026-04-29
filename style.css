@@ -1,0 +1,9 @@
+.body {
+    background: linear-gradient(to left, rgb(226, 67, 41), rgb(252, 109, 38), rgb(252, 163, 38));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
