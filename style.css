@@ -1,9 +1,23 @@
+.Title {
+    text-align: center;
+    background: linear-gradient(to right, #0018a1, #1831bd);
+    padding: 10px;
+}
 .body {
-    background: linear-gradient(to left, rgb(226, 67, 41), rgb(252, 109, 38), rgb(252, 163, 38));
+    background: linear-gradient(to left, #bd1c00, rgb(252, 109, 38), rgb(252, 163, 38));
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;;
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
+}
+
+.Admin-Login {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: white;
+    padding: 0.2%;
+    text-align: center;
+    text-decoration: none;
 }
